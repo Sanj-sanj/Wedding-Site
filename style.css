@@ -35,16 +35,16 @@ h1 {
     cursor: pointer;
     font-size: 27px;
     height: 38px;
-    padding: 0 17px;
+    padding: 0 13px;
     border-style: none;
     display: none;
     justify-content: center;
-    background: rgb(138, 138, 150)
+    background: rgb(192, 171, 186)
 
 }
 .button-wrap {
     width: 100%;
-    background-color: rgb(158, 158, 158);
+    background-color: rgb(173, 173, 173);
     padding-block-end: 52px;
     position: fixed;
 }
