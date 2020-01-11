@@ -306,6 +306,9 @@ iframe, object, embed {
     .navi-line{
         display: none;
     }
+    .top {
+        margin-block-top: 11.8%;
+    }
 }
 @media (min-width: 768px) and (max-width: 1279px) {
     .wrapper
