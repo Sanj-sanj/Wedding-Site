@@ -307,7 +307,7 @@ iframe, object, embed {
         display: none;
     }
     .top {
-        margin-block-top: 11.8%;
+        margin-block-start: 11.8%;
     }
     .hero {
     margin-top: 25px;
