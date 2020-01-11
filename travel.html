@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+
+    <title>Gurj & Avneet</title>
+</head>
+
+<body>
+
+<div class="wrap">
+
+    <div class="button-wrap">
+        <button class="button">≡</button>                
+        </div>
+        <div class="mobile-nav" id="js-mobile-nav">
+            <ul class="navi-bar nav-mobile">
+                <li class="navi-link home mobile-links">
+                    <a href="./index.html" class="links a-mobile">HOME
+                    </a>
+                </li>
+                <li class="navi-link travel mobile-links">
+                    <a href="./travel.html" class="links a-mobile">TRAVEL</a>
+                </li>
+                <li class="navi-link rsvp mobile-links">
+                    <a href="./RSVP.html" class="links a-mobile">RSVP</a>
+                </li>  
+            </ul>
+        </div>
+    
+    <div class="wrapper">
+
+        <div class="content-box">   
+
+            <div class="top row" id="top">
+                <h1 class="row">Gurj & Avneet</h1>
+            </div>
+
+            <div class="navi">
+                <ul class="navi-bar">
+                    <div class="horizontal-divider navi-line">
+                        <hr>
+                    </div>
+                    <li class="navi-link home"><a href="./index.html" class="links">HOME</a></li>
+                    <li class="navi-link travel"><a href="./travel.html" class="links">TRAVEL</a></li>
+                    <li class="navi-link rsvp"><a href="./RSVP.html" class="links">RSVP</a></li>  
+                    <div class="horizontal-divider navi-line">
+                        <hr>
+                    </div>
+                </ul>
+            </div>
+            
+                <picture class="eye-catch ">
+                    <img src="./img/GA afar.jpeg" class= "hero" alt="A loving couple.">
+                </picture>
+
+            <div class="bottom row ">
+                <h3 class="row sec-bottom-titlebits"> We've reserved a block of rooms at the Gurdwara in BC. Just mention the Bains-Sandhu wedding when you reserve</h2>
+
+                <div class="invite-sect">
+
+                    <section class="sect sides one">     
+                        <div class="col-spacer">
+                            <div class="spacer-block"></div>
+                        </div>
+                    </section>
+                    <section class="sect center">
+                        <div class="col-spacer stack-text">
+
+                            <p class="row inv-sec-person">THE GURDWARA</p>
+                            <p class="row">123 E 10th ST (somewhere)</p>
+                            <p class="row">Somewhere in Canada</p>
+                            <p class="row">{123)-123-1234</p>
+                            <div class="map-wrap">
+                                <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ9Q3t_5zZhVQR-gDxDaPlvsI&key=AIzaSyCr3QZAWLKjJAZBM4dBVtkpViMS1GV0QYI" allowfullscreen></iframe>
+
+                            </div>
+                        </div>
+
+                        
+
+                    </section>                    
+                    <section class="sect sides two">     
+                        <div class="col-spacer">
+                            <div class="spacer-block"></div>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="horizontal-divider last other-pages">
+                    <hr>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./sitejs.js"></script>
+<script>
+    function initMap() {
+        var locationRio = {lat: -22.915, lng: -43.197};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 13,
+          center: locationRio,
+          gestureHandling: 'none',
+          zoomControl: false
+        })};</script>
+
+</body>
+</html>
