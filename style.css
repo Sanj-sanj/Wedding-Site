@@ -141,6 +141,7 @@ a:hover {
 .hero {
     margin: 50px;
     width: 100%;
+    height: auto;
     padding: 0 20px;
 }
 
