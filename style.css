@@ -34,8 +34,8 @@ h1 {
     left:7px;
     cursor: pointer;
     font-size: 27px;
-    width: 38px;
     height: 38px;
+    padding: 0 17px;
     border-style: none;
     display: none;
     justify-content: center;
