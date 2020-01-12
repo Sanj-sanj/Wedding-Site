@@ -47,6 +47,7 @@ h1 {
     background-color: rgb(173, 173, 173);
     padding-block-end: 52px;
     position: fixed;
+    z-index: 10;
 }
 
 .navi {
@@ -60,9 +61,9 @@ h1 {
     align-items: stretch;
     justify-content: space-evenly;
     width: 100%;
-    margin-top: 10px;
     min-width: 448px;
     padding: 0;
+    margin: 8px 11%;
 }
 
 .navi-bar.nav-mobile {
@@ -70,18 +71,21 @@ h1 {
     flex-flow: column ;
     align-items: center;
     width: 100%;
-    padding-top: 60px;
+    margin: 0;
 }
 
 .navi-line {
-    width: 124px;
+    width: 100%;
 }
 .mobile-nav {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     background-color: #777;
     transition: height 1s;
-    height: 1px;
+    height: 0px;
+    position: fixed;
+    width: 100%;
 }
 .mobile-nav-active {
     height: 0px;
@@ -93,6 +97,8 @@ h1 {
 }
 
 li {
+    width: 100%;
+    text-align: center;
     list-style: none;
     list-style-image: none;
     text-decoration: none;
@@ -335,7 +341,7 @@ iframe, object, embed {
     }
 }
 
-@media (min-width: 1280px) and (max-width: 1700px) {
+@media (min-width: 1280px) and (max-width: 1500px) {
     .wrapper
     .content-box {
         width: 65%
@@ -351,7 +357,7 @@ iframe, object, embed {
     }
 }
 
-@media (min-width: 1701px) and (max-width: 1920px) {
+@media (min-width: 1501px) and (max-width: 1920px) {
     .wrapper
     .content-box {
         width: 52%;
