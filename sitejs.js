@@ -24,13 +24,13 @@ function buttonClick() {
 
 function foo () {
     //navToggle.style.display = 'flex';
-    header.style.marginBlockStart = '9.8%';
+    header.style.marginBlockStart = '9.2%';
     navToggle.classList.add('mobile-nav-active')
-    navToggle.style.height = ('200px')
+    navToggle.style.height = ('185px')
 }
 
 function bar() {
     //navToggle.style.display = 'none';
     navToggle.style.height = ('0px');
-    header.style.marginBlockStart = '9.8%';
+    header.style.marginBlockStart = '9.2%';
 }
