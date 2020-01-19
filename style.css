@@ -21,10 +21,11 @@ body {
 }
 
 h1 {
-    font-family: 'Ibarra Real Nova', serif;
-    font-size: 50px;
-    font-weight: lighter;
-    font-style: oblique;
+/*    font-family: 'Ibarra Real Nova', serif;*/
+    font-family: 'Dancing Script', cursive;
+    font-size: 75px;
+    font-weight: normal;
+    font-style: italic
 
 }
 
@@ -245,6 +246,17 @@ a:hover {
 .home.sides {
     flex: 1;
 }
+/* site svg styles */
+
+
+.img-top {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: -84px;
+    transition: height 1s;
+    height: 75px;
+}
 
 /* rsvp section stylings */
 
@@ -304,19 +316,15 @@ iframe, object, embed {
     }
     .top {
         padding-block-start: 20px;
-
-    }
-
-}
-@media (max-width: 456px) {
-    .navi-line{
-        display: none;
+        margin-block-start: 13.2%;
     }
     .hero {
-    margin-top: 25px;
+        margin-top: 25px;
     }
+
 }
-@media (min-width: 768px) and (max-width: 1279px) {
+
+@media (min-width: 768px) and (max-width: 1083px) {
     .wrapper
     .content-box {
         width: 85%;
@@ -336,9 +344,15 @@ iframe, object, embed {
     .button-wrap {
         display: none;
     }
+    .img-top {
+        display: none;
+    }
+    h1{
+        font-size: 64px;
+    }
 }
 
-@media (min-width: 1280px) and (max-width: 1500px) {
+@media (min-width: 1084px) and (max-width: 1500px) {
     .wrapper
     .content-box {
         width: 65%
@@ -352,9 +366,12 @@ iframe, object, embed {
     .button-wrap {
         display: none;
     }
+    .img-top {
+        display: none;
+    }
 }
 
-@media (min-width: 1501px) and (max-width: 1920px) {
+@media (min-width: 1501px) and (max-width: 2920px) {
     .wrapper
     .content-box {
         width: 52%;
@@ -366,6 +383,9 @@ iframe, object, embed {
         display: none;
     }
     .button-wrap {
+        display: none;
+    }
+    .img-top {
         display: none;
     }
 }
