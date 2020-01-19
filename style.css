@@ -255,6 +255,7 @@ a:hover {
     width: 100%;
     top: -84px;
     transition: height 1s;
+    -webkit-transition: height 1s;
     height: 75px;
 }
 
