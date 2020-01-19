@@ -135,7 +135,7 @@ a:hover {
 }
 
 .content-box {
-    border: #9999 2px solid;
+    border: #e6e4e499 2px solid;
     margin: 100px auto;
     background-color: ghostwhite;
 
@@ -207,7 +207,7 @@ a:hover {
 }
 
 .horizontal-divider hr {
-    background-color: #9999 ;
+    background-color: #e6e4e499 ;
     height: 2px;
     border-style: none;
 }
