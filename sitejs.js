@@ -2,7 +2,7 @@ let toggle = false;
 let navToggle = document.getElementById('js-mobile-nav');
 let header = document.getElementById('top');
 let mobileLinks = document.getElementById('js-mobile-links');
-
+let dropImgTop = document.getElementById('js-img-top');
 
 document
 .querySelector('.button')
@@ -10,8 +10,14 @@ document
     buttonClick(navToggle.display);
 })
 
+window.setTimeout(dropImg(), 30000);
+
+function dropImg() {
+    dropImgTop.style.height = ('275px');
+}
+
+
 function buttonClick() {
-    navToggle.scrollIntoView();
     if (toggle != true) {
         foo();
         toggle = true;        
@@ -24,13 +30,12 @@ function buttonClick() {
 
 function foo () {
     //navToggle.style.display = 'flex';
-    header.style.marginBlockStart = '9.2%';
-    navToggle.classList.add('mobile-nav-active')
-    navToggle.style.height = ('185px')
+    navToggle.classList.add('mobile-nav-active');
+    navToggle.style.height = ('185px');
+
 }
 
 function bar() {
     //navToggle.style.display = 'none';
     navToggle.style.height = ('0px');
-    header.style.marginBlockStart = '9.2%';
 }
