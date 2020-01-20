@@ -10,7 +10,7 @@ document
     buttonClick(navToggle.display);
 })
 
-window.setTimeout(dropImg(), 5000);
+window.setTimeout(dropImg(), 50000);
 
 function dropImg() {
     dropImgTop.style.height = ('275px');
