@@ -113,14 +113,22 @@ ul {
     text-decoration: none;
     color: #556;
 }
+.links:hover {
+    text-decoration: underline;
+    color: rgb(150, 139, 139);
+}
+.links:active {
+    color: rgb(190, 190, 190);
+}
 .a-mobile {
     color: #a196a1
 }
-a:hover {
-    text-decoration: underline;
-    color: #777;
+.a-mobile:hover {
+    color: rgb(194, 181, 189);
 }
-
+.a-mobile:active {
+    color: white;
+}
 
 
 .wrap {
@@ -203,7 +211,7 @@ a:hover {
 .inv-sec-divider{
     font-family: 'Ibarra Real Nova', serif;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .horizontal-divider hr {
@@ -218,7 +226,7 @@ a:hover {
     margin-right: none;
     padding: 10px 10px;
 }
-
+.sec-bottom-titlebits
 .last {
     margin-left: 8%;
     margin-right: 8%;
@@ -229,8 +237,11 @@ a:hover {
     font-family:  'Libre Baskerville', serif; 
     font-weight: 10;
     margin: 0 0;
+    line-height: 1.5em;
 }
-
+.invite-txt {
+    padding-top: 70px;
+}
 .top {
     /* inherits from .row */
     margin-block-start: 9.2%;
@@ -255,7 +266,7 @@ a:hover {
     width: 100%;
     top: -84px;
     transition: height 1s;
-    -webkit-transition: height 1s;
+    -webkit-transition: height 2s;
     height: 75px;
 }
 
@@ -322,8 +333,11 @@ iframe, object, embed {
     .hero {
         margin-top: 25px;
     }
-        h1{
-        font-size: 54px;
+    h1{
+        font-size: 64px;
+    }
+    .invite-txt {
+        padding-top: 0px;
     }
 }
 
