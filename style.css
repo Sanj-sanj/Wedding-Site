@@ -339,6 +339,9 @@ iframe, object, embed {
     .invite-txt {
         padding-top: 0px;
     }
+    .blurb {
+        padding-top: 3em;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1083px) {
@@ -363,6 +366,12 @@ iframe, object, embed {
     }
     .img-top {
         display: none;
+    }
+    .invite-txt {
+        padding-top: 0px;
+    }
+    .blurb {
+        padding-top: 3em;
     }
 
 }
