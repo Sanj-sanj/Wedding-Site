@@ -3,6 +3,7 @@ let navToggle = document.getElementById('js-mobile-nav');
 let header = document.getElementById('top');
 let mobileLinks = document.getElementById('js-mobile-links');
 let dropImgTop = document.getElementById('js-img-top');
+let currentWindow = window.location
 
 document
 .querySelector('.button')
@@ -10,7 +11,7 @@ document
     buttonClick(navToggle.display);
 })
 
-window.setTimeout(dropImg(), 50000);
+window.setTimeout(dropImg(), 5000);
 
 function dropImg() {
     dropImgTop.style.height = ('275px');
@@ -29,13 +30,10 @@ function buttonClick() {
 }
 
 function foo () {
-    //navToggle.style.display = 'flex';
     navToggle.classList.add('mobile-nav-active');
-    navToggle.style.height = ('185px');
+    navToggle.style.height = ('225px');
 
 }
-
 function bar() {
-    //navToggle.style.display = 'none';
     navToggle.style.height = ('0px');
 }
