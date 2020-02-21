@@ -3,7 +3,6 @@ let navToggle = document.getElementById('js-mobile-nav');
 let header = document.getElementById('top');
 let mobileLinks = document.getElementById('js-mobile-links');
 let dropImgTop = document.getElementById('js-img-top');
-let currentWindow = window.location
 
 document
 .querySelector('.button')
