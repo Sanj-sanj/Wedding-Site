@@ -116,7 +116,7 @@ ul {
     color: rgb(190, 190, 190);
 }
 .a-mobile {
-    color: #CC97A2
+    color: #dca4b0
 }
 .a-mobile:hover {
     color: #FF9F96;
@@ -135,9 +135,9 @@ ul {
 }
 
 .content-box {
-    border: #efefef 2px solid;
+    border: #eee 2px solid;
     margin: 100px auto;
-    background-color: ghostwhite;
+    background-color: #fff;
 }
 
 .main-img {
@@ -234,6 +234,8 @@ ul {
 .sides{
     flex: 1;
 }
+
+
 .map-wrap {
     margin-top: 45px;
 }
@@ -252,6 +254,18 @@ ul {
     background-color: #efefef;
     height: 2px;
     border-style: none;
+}
+.horizontal-divider.last {
+    margin-top: 6em;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.horizontal-divider.last.first-of {
+    margin-top: 0;
+}
+.horizontal-divider.rsvp-sec {
+    margin-top: auto;
 }
 
 .spacer-block {
@@ -321,15 +335,10 @@ iframe, object, embed {
 .sect, .center, .form {
     flex: none;
 }
+.sides, .one, .two, .sect{
+    flex: inherit;
+}
 
-.horizontal-divider.last {
-    margin-top: 6em;
-    margin-left: 8%;
-    margin-right: 8%;
-}
-.horizontal-divider.rsvp-sec {
-    margin-top: auto;
-}
 /*responsive web stuff */
 @media (min-width: 40px)  and (max-width: 767px){
     .wrapper
